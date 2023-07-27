@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+
+/* HEADER SECTION */
+header {
+    margin-top: 2%;
+
+}
+header h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 28px;
+
+}
+
+/* NAV SECTION */
+nav {
+    margin-top: 1%;
+
+}
+.navbar {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(204, 238, 243)); 
+    box-shadow: 0 3px 5px rgb(199, 196, 196);
+      
+}
+.navbar a{
+    text-transform: uppercase;
+    color:  #6d88a1;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+
+}
+.navbar a:hover {
+    color: rgb(0, 16, 87);
+    text-decoration: overline;
+
+}
+.navbar button {
+    color: rgb(215, 233, 241);
+
+}
+
+/* MID SECTION */
+.mid {
+    justify-content: center;
+    margin-top: 1%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(204, 238, 243)); 
+    box-shadow: 0 3px 5px rgb(199, 196, 196);
+
+}
+.mid .container-fluid {
+    padding: 5%;
+
+}
+.mid h1 {
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.mid p {
+    text-align: center;
+    color: rgb(44, 44, 44);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.mid a {
+    text-align: center;
+    text-decoration: none;
+    color: #1787bb;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid #1787bb;
+    border-radius: 20px;
+
+}
+.mid a:hover {
+    background-color: #1787bb;
+    color:#fff; 
+
+}
+
+/* ABOUT SECTION */
+.about .container-fluid {
+    margin-top: 2%;
+    
+}
+.about .col-4 img {
+    box-shadow: 0 5px 5px rgb(150, 146, 146);
+
+} 
+.about h3 {
+    font-size: 24px;
+    text-align: center;
+    
+}
+.about p {
+    font-family: 'poppins', sans-serif;
+    text-align: justify;
+    margin-top: 2%;
+    font-weight: 300;
+    font-size: 14px; 
+
+} 
+.about .more {
+    margin-top: 5%;
+
+} 
+.about .more .socmed a {
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    margin: 4px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #787f83;
+
+}
+.about .more .socmed a:hover {
+    color: #1787bb;
+    text-decoration: overline;
+
+}
+
+/* FOOTER SECTION */
+footer {
+    margin-top: 2%;
+}
+footer p {
+    color: rgb(73, 73, 73);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+footer a {
+    text-decoration: none;
+    color: #1787bb;
+
+}
+
+
+
+.title h1 {
+    text-align: end;
+    padding: 2%;
+    font-size: 14;
+}
+
+/* PROFILE SECTION */
+
+
+.profile {
+    margin-top: 1%;
+    padding: 1%;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(244, 249, 250)); 
+    
+}
+.profile h3 {
+    font-weight: 700;
+    font-family: 'poppins',sans-serif;
+
+}
+.profile .img-center{
+    margin-top: 1%;
+
+}
+.profile img {
+    max-width: 180px;
+
+}
+.profile h4 {
+    font-family: 'poppins', sans-serif;
+    color: #393a3b;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+    padding: 2%;
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(204, 238, 243)); 
+    box-shadow: 0 3px 5px rgb(199, 196, 196); */
+    
+}
+.profile .sec {
+    text-align: center;
+
+}
+.profile .sec h5 {
+    padding: 1%;
+    text-transform: uppercase;
+    font-family: 'poppins', sans-serif;
+    color: #393a3b;
+    font-size: 15px;
+    background-color: #edf2f5;
+    box-shadow: 0 3px 5px rgb(199, 196, 196);
+
+
+}
+.profile .sec p {
+    text-align: start;
+    font-family: 'poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+    
+}
+.profile .col-3 p{
+    font-family: 'poppins', sans-serif;
+    text-align: end;
+    font-weight: 500;
+    font-size: 12px;
+
+}
+.profile .col-8 p {
+    font-size: 14px;
+
+
+
+}
+.profile .col-8 i {
+    font-size: 20px;
+    color: #1787bb;
+
+}
+
+.profile .sec h6 {
+    margin: 2%;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+
+}
+.profile .sec .pic img {
+    border-radius: 4%;
+    box-shadow: 0 3px 5px rgb(133, 133, 133);
+}
+
+
+
+/* PORTFOLIO SECTION */
+
+.portfolio {
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 1%;
+    padding: 1%;
+    background-image: linear-gradient(to right, rgba(136, 50, 50, 0), rgb(244, 249, 250)); 
+
+}
+.portfolio .container-fluid h1 {
+    margin-top: 1%;
+    color:#1787bb;
+    text-align: center;
+    font-size: 30px;
+
+}
+.portfolio .container-fluid .projects .row {
+    margin-top: 5%;
+    
+}
+.portfolio .container-fluid .projects .col img{
+    border-radius: 3px;
+    box-shadow: 0px 5px 4px rgb(158, 160, 160);
+
+}
+.portfolio .container-fluid .projects .col h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #393a3b;
+    font-size: 15px;
+    box-shadow: 0 3px 5px rgb(199, 196, 196);font-family: 'poppins',sans-serif;
+    background-color: #edf2f5;
+    padding: 1%;
+    
+}
+.portfolio .container-fluid .projects .col h4 {
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+}
+.portfolio .container-fluid .projects .lable {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'poppins',sans-serif;
+    color: #8d8e8f;
+}
+.portfolio .container-fluid .projects .value {
+    font-size: 15px;
+    font-family: 'poppins',sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 300;
+}
+.portfolio .container-fluid .projects .value-2 {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'poppins',sans-serif;
+    color: #000000;
+}
+.portfolio .container-fluid .projects .lable a{
+    text-decoration: none;
+    text-decoration: underline;
+    color: #1787bb;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'poppins',sans-serif;
+}
+
+
+
+
+/* MEDIA */
+
+@media only screen and (max-width: 600px) {
+    /* HEADER SECTION */
+    header {
+        text-align: center;
+    }
+
+    /* NAV SECTION */
+    .navbar a {
+        text-align: center;
+    }
+
+    /* ABOUT SECTION */
+    .about h3 {
+        margin-top: 2%;
+    }
+    .about img {
+        display: none;
+    }
+    .about .col-7 {
+        width: 370px;
+    }
+
+    /* PROFILE SECTION */
+    .profile {
+        display: none;
+
+    }
+
+    /* PORTFOLIO SECTION */
+    .portfolio .container-fluid .projects .col img {
+        height: 180px;
+        margin-bottom: 10%;
+        
+    }
+}
